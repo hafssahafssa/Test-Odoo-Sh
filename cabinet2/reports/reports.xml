@@ -1,0 +1,13 @@
+<odoo>
+    <data>
+        <record id="cabinet_ordonance_report" model="ir.actions.report">
+    <field name="name">Ordonance</field>
+    <field name="model">cabinet.ordonance</field>
+    <field name="report_type">qweb-pdf</field>
+    <field name="report_name">cabinet2.hafssa_template</field>
+    <field name="report_file">cabinet2.hafssa_template</field>
+    <field name="binding_model_id" ref="model_cabinet_ordonance"/>
+    <field name="binding_type">report</field>
+</record>
+    </data>
+</odoo>
